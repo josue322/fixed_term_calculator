@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Rowdies:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter&display=swap');
+
+
+body {
+  background-color: #e6f1ff;
+}
+
+header {
+  background-color: black;
+  text-align: center;
+  padding: 20px;
+  color: white;
+  font-family: 'Bebas Neue', sans-serif;
+  font-family: 'Rowdies', cursive;
+  font-size: 15px;
+}
+
+input[type="number"] {
+  width: 105px;
+  padding: 5px;
+  padding-bottom: 0px;
+  background-color: #ffffff;
+  color: #333;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-family: 'Bitter', serif;
+  font-size: 14px;
+}
+
+input[type="number"]:hover {
+  background-color: #ffffff;
+}
+
+input[type="number"]:focus {
+  outline: none;
+  border-color: #007bff;
+  background-color: #fff;
+}
+
+
+select {
+  padding: 2px;
+  font-family: 'Bebas Neue', sans-serif;
+  font-family: 'Rowdies', cursive;
+  background-color: #ffffff;
+  color: #333;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
+
+select:hover {
+  background-color: #ffffff;
+}
+
+select:focus {
+  outline: none;
+  border-color: #007bff;
+  background-color: rgb(255, 255, 255);
+}
+
+.formulario {
+  padding-bottom: 25px;
+  padding-top: 20px;
+  background: #ffffff;
+  box-shadow: 7px 13px 37px black;
+  color: black;
+  border-radius: 8px;
+  font-family: 'Bitter', serif;
+  margin: 20px 250px 20px 250px;
+
+}
+
+.boton {
+  background-color: blue;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: 'Bitter', serif;
+  scale: 1.2;
+}
+
+input[type="date"] {
+  width: 100px;
+  padding: 5px;
+  background-color: #ffffff;
+  color: #333;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
+
+input[type="date"]:hover {
+  background-color: #ffffff;
+}
+
+input[type="date"]:focus {
+  outline: none;
+  border-color: #007bff;
+  background-color: #fff;
+}
+
+.container {
+  padding: 20px;
+  text-align: center;
+}
+
+table{
+  display: flex;
+  justify-content: center;
+  padding-top: 70px;
+}
+td {
+  background-color: #ffffff;
+  border-width: 2px;
+  border-style: solid ;
+  border-color: white;
+  width: 180px;
+  height: 38px;
+  border-radius: 5px;
+  font-family: 'Bitter', serif;
+  padding: 10px 50px;
+}
+
+th {
+  height: 45px;
+  background-color: blue;
+  color: white;
+  border-radius: 5px;
+  
+}
+
+h2 {
+  color: black;
+  font-family: 'Bitter', serif;
+  font-size: 30px;
+  padding-top: 70px;
+}
+
+p {
+  color: black;
+  font-family: 'Bitter', serif;
+  font-size: 20px;
+}
+
+.contenido{
+  text-align: center;
+  font-family: 'Bitter', serif;
+  font-size: 35px;
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
